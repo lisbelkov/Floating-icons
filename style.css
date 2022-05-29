@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 400;
+    background-image: url(background28.jpg);
+}
+
+.hero {
+    width: 100%;
+    min-height: 100hv;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.list__caption {
+    width: calc(25% - 40px);
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #B9A87D;
+    margin: 15px;
+}
+
+.list__cell {
+    width: calc(25% - 40px);
+    margin: 0 20px;
+    min-height: 150px;
+    box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.2);
+    background-color: #F1EECD;
+    overflow: hidden;
+}
+
+.list__card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100%;
+    cursor: all-scroll;
+}
+
+.list__card-header {
+    font-weight: bold;
+    padding: 15px 18px;
+    background-color: #9A9E8F;
+    color: white;
+    text-transform: uppercase;
+}
+
+.list__card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 15px 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+    color: #767570;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    background-color: #F7D57B;
+}
